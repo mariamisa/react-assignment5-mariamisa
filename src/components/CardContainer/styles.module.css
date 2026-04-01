@@ -1,0 +1,10 @@
+.containerCard {
+	width: 70%;
+	margin:20px auto;
+}
+
+@media (max-width: 768px) {
+	.containerCard {
+		width: 80%
+	}
+}

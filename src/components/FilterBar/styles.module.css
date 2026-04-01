@@ -1,0 +1,29 @@
+.filterBar {
+	width: 70%;
+	margin: auto;
+	padding: 20px;
+	position: relative;
+	top: -30px;
+	z-index: 999999;
+	background-color: #ffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.clearBtn {
+	color: var(--clr-desaturatedDarkCyan);
+	font-weight: var(--fw-bold);
+}
+
+.clearBtn:hover {
+	text-decoration: underline;
+	cursor: pointer;
+
+}
+
+@media (max-width: 768px) {
+	.filterBar {
+		width: 80%
+	}
+}

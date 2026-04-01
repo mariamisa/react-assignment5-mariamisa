@@ -1,0 +1,103 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-family: var(--ff-base);
+  background-color: #fff;
+}
+
+.featured {
+  border-left: 4px solid var(--clr-desaturatedDarkCyan);
+}
+
+/* LEFT */
+.left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.company {
+  color: var(--clr-desaturatedDarkCyan);
+  font-weight: var(--fw-bold);
+}
+
+.new {
+  background: var(--clr-desaturatedDarkCyan);
+}
+
+.featuredBadge {
+  background: var(--clr-veryDarkGrayishCyan);
+}
+.tag {
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  display: flex;
+  text-transform: capitalize;
+}
+.tag span{
+  height: 15px;
+}
+
+.position {
+  margin: 6px 0;
+  font-size: 16px;
+  font-weight: var(--fw-bold);
+  cursor: pointer;
+}
+
+.position:hover {
+  color: var(--clr-desaturatedDarkCyan);
+}
+
+.info {
+  display: flex;
+  gap: 10px;
+  color: var(--clr-darkGrayishCya);
+  font-size: var(--font-paragraph);
+}
+
+
+@media (max-width: 767px) {
+  .card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    padding-top: 40px;
+    margin: 40px 0;
+  }
+
+  .left {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    position: absolute;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .info {
+    gap: 5px;
+  }
+}

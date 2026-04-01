@@ -1,5 +1,5 @@
 /** Component Imports */
-import Example from './components/Example'
+import Employees from './components/Employees'
 
 /**
  * This is the entry point for your react-app
@@ -16,9 +16,7 @@ import Example from './components/Example'
 const App = () => {
   return (
     <div>
-      {<Example /> /** You can remove this when you wish, it's provided as an example of modular styling */}
-      
-      Your code here
+      <Employees />
     </div>
   )
 }
