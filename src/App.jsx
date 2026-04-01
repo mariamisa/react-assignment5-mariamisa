@@ -1,5 +1,5 @@
 /** Component Imports */
-import Employees from './components/Employees'
+import Jobs from './components/Jobs'
 
 /**
  * This is the entry point for your react-app
@@ -16,7 +16,7 @@ import Employees from './components/Employees'
 const App = () => {
   return (
     <div>
-      <Employees />
+      <Jobs />
     </div>
   )
 }

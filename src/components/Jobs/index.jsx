@@ -18,7 +18,7 @@ const emptyFilter = {
 	tools: []
 }
 
-export default function Employees() {
+export default function Jobs() {
 	const [filterValues, setFilterValues] = useState(
 		emptyFilter
 	)
